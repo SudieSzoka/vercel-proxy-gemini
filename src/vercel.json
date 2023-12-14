@@ -1,12 +1,12 @@
 {
-    "rewrites": [
-        { "source": "/", "destination": "https://generativelanguage.googleapis.com" },
-        {
-            "source": "/:match*",
-            "destination": "https://generativelanguage.googleapis.com/:match*"
-        }
-    ],
-    "github": {
-        "silent": true
-    }
+"rewrites": [
+{ "source": "/", "destination": "https://generativelanguage.googleapis.com" },
+{
+"source": "/:match*",
+"destination": "https://generativelanguage.googleapis.com/:match*"
+}
+],
+"github": {
+"silent": true
+}
 }
